@@ -1,0 +1,17 @@
+type Query {
+    portfolios: [Portfolio]!
+}
+
+type Mutation {
+    post(title: String!, description: String!): Portfolio!
+}
+  
+type Portfolio {
+    id: ID!
+    title: String!
+    description: String!
+    tec_stack: String!
+    img_url: String!
+    create: String!
+    createBy: String!
+}

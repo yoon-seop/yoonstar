@@ -1,0 +1,9 @@
+type Portfolio {
+  id: ID! @id
+  title: String!
+  description: String!
+  tec_stack: String!
+  img_url: String!
+  create: String!
+  createBy: String!
+}
